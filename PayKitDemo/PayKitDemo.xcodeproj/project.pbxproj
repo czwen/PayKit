@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1E703119EB6C30001701E7 /* AlipayRsaLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1E700F19EB6C30001701E7 /* AlipayRsaLib.a */; };
+		3D1E703219EB6C30001701E7 /* Alixpay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E701119EB6C30001701E7 /* Alixpay.bundle */; };
+		3D1E703519EB6C30001701E7 /* AlixPayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E701519EB6C30001701E7 /* AlixPayOrder.m */; };
+		3D1E703619EB6C30001701E7 /* AlixPayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E701719EB6C30001701E7 /* AlixPayResult.m */; };
+		3D1E703719EB6C30001701E7 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E701B19EB6C30001701E7 /* NSObject+SBJSON.m */; };
+		3D1E703819EB6C30001701E7 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E701D19EB6C30001701E7 /* NSString+SBJSON.m */; };
+		3D1E703919EB6C30001701E7 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E701F19EB6C30001701E7 /* SBJSON.m */; };
+		3D1E703A19EB6C30001701E7 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E702119EB6C30001701E7 /* SBJsonBase.m */; };
+		3D1E703B19EB6C30001701E7 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E702319EB6C30001701E7 /* SBJsonParser.m */; };
+		3D1E703C19EB6C30001701E7 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E702519EB6C30001701E7 /* SBJsonWriter.m */; };
+		3D1E703D19EB6C30001701E7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1E702619EB6C30001701E7 /* libcrypto.a */; };
+		3D1E703E19EB6C30001701E7 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1E702719EB6C30001701E7 /* libssl.a */; };
+		3D1E703F19EB6C30001701E7 /* PayKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E702C19EB6C30001701E7 /* PayKit.m */; };
+		3D1E704019EB6C30001701E7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1E702E19EB6C30001701E7 /* libWeChatSDK.a */; };
+		3DBD865919EAC7D100176DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD865819EAC7D100176DFD /* main.m */; };
+		3DBD865C19EAC7D100176DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD865B19EAC7D100176DFD /* AppDelegate.m */; };
+		3DBD865F19EAC7D100176DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD865E19EAC7D100176DFD /* ViewController.m */; };
+		3DBD866219EAC7D100176DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBD866019EAC7D100176DFD /* Main.storyboard */; };
+		3DBD866419EAC7D100176DFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBD866319EAC7D100176DFD /* Images.xcassets */; };
+		3DBD866719EAC7D100176DFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DBD866519EAC7D100176DFD /* LaunchScreen.xib */; };
+		3DBD867319EAC7D100176DFD /* PayKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD867219EAC7D100176DFD /* PayKitDemoTests.m */; };
+		3DF8B31719EBC0E0001584F4 /* AlixPaylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF8B31619EBC0E0001584F4 /* AlixPaylib.a */; };
+		3DF8B31D19EBC148001584F4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8B31C19EBC148001584F4 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DBD866D19EAC7D100176DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBD864B19EAC7D100176DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBD865219EAC7D100176DFD;
+			remoteInfo = PayKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1E700F19EB6C30001701E7 /* AlipayRsaLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AlipayRsaLib.a; sourceTree = "<group>"; };
+		3D1E701019EB6C30001701E7 /* AlixLibService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixLibService.h; sourceTree = "<group>"; };
+		3D1E701119EB6C30001701E7 /* Alixpay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Alixpay.bundle; sourceTree = "<group>"; };
+		3D1E701419EB6C30001701E7 /* AlixPayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayOrder.h; sourceTree = "<group>"; };
+		3D1E701519EB6C30001701E7 /* AlixPayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayOrder.m; sourceTree = "<group>"; };
+		3D1E701619EB6C30001701E7 /* AlixPayResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlixPayResult.h; sourceTree = "<group>"; };
+		3D1E701719EB6C30001701E7 /* AlixPayResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlixPayResult.m; sourceTree = "<group>"; };
+		3D1E701919EB6C30001701E7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		3D1E701A19EB6C30001701E7 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		3D1E701B19EB6C30001701E7 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		3D1E701C19EB6C30001701E7 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		3D1E701D19EB6C30001701E7 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		3D1E701E19EB6C30001701E7 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		3D1E701F19EB6C30001701E7 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		3D1E702019EB6C30001701E7 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		3D1E702119EB6C30001701E7 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		3D1E702219EB6C30001701E7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		3D1E702319EB6C30001701E7 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		3D1E702419EB6C30001701E7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		3D1E702519EB6C30001701E7 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		3D1E702619EB6C30001701E7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		3D1E702719EB6C30001701E7 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		3D1E702919EB6C30001701E7 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
+		3D1E702A19EB6C30001701E7 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
+		3D1E702B19EB6C30001701E7 /* PayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayKit.h; sourceTree = "<group>"; };
+		3D1E702C19EB6C30001701E7 /* PayKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayKit.m; sourceTree = "<group>"; };
+		3D1E702E19EB6C30001701E7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3D1E702F19EB6C30001701E7 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3D1E703019EB6C30001701E7 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3DBD865319EAC7D100176DFD /* PayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBD865719EAC7D100176DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBD865819EAC7D100176DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DBD865A19EAC7D100176DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DBD865B19EAC7D100176DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DBD865D19EAC7D100176DFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DBD865E19EAC7D100176DFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DBD866119EAC7D100176DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DBD866319EAC7D100176DFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DBD866619EAC7D100176DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DBD866C19EAC7D100176DFD /* PayKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBD867119EAC7D100176DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBD867219EAC7D100176DFD /* PayKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayKitDemoTests.m; sourceTree = "<group>"; };
+		3DF8B31619EBC0E0001584F4 /* AlixPaylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AlixPaylib.a; sourceTree = "<group>"; };
+		3DF8B31B19EBC148001584F4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3DF8B31C19EBC148001584F4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DBD865019EAC7D100176DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1E703E19EB6C30001701E7 /* libssl.a in Frameworks */,
+				3D1E704019EB6C30001701E7 /* libWeChatSDK.a in Frameworks */,
+				3DF8B31719EBC0E0001584F4 /* AlixPaylib.a in Frameworks */,
+				3D1E703D19EB6C30001701E7 /* libcrypto.a in Frameworks */,
+				3D1E703119EB6C30001701E7 /* AlipayRsaLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBD866919EAC7D100176DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1E700D19EB6C30001701E7 /* PayKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D1E700E19EB6C30001701E7 /* Alipay */,
+				3D1E702D19EB6C30001701E7 /* Wechat */,
+				3D1E702B19EB6C30001701E7 /* PayKit.h */,
+				3D1E702C19EB6C30001701E7 /* PayKit.m */,
+			);
+			path = PayKit;
+			sourceTree = "<group>";
+		};
+		3D1E700E19EB6C30001701E7 /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8B31619EBC0E0001584F4 /* AlixPaylib.a */,
+				3D1E700F19EB6C30001701E7 /* AlipayRsaLib.a */,
+				3D1E701019EB6C30001701E7 /* AlixLibService.h */,
+				3D1E701119EB6C30001701E7 /* Alixpay.bundle */,
+				3D1E701419EB6C30001701E7 /* AlixPayOrder.h */,
+				3D1E701519EB6C30001701E7 /* AlixPayOrder.m */,
+				3D1E701619EB6C30001701E7 /* AlixPayResult.h */,
+				3D1E701719EB6C30001701E7 /* AlixPayResult.m */,
+				3D1E701819EB6C30001701E7 /* json */,
+				3D1E702619EB6C30001701E7 /* libcrypto.a */,
+				3D1E702719EB6C30001701E7 /* libssl.a */,
+				3D1E702819EB6C30001701E7 /* RSA */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		3D1E701819EB6C30001701E7 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				3D1E701919EB6C30001701E7 /* JSON.h */,
+				3D1E701A19EB6C30001701E7 /* NSObject+SBJSON.h */,
+				3D1E701B19EB6C30001701E7 /* NSObject+SBJSON.m */,
+				3D1E701C19EB6C30001701E7 /* NSString+SBJSON.h */,
+				3D1E701D19EB6C30001701E7 /* NSString+SBJSON.m */,
+				3D1E701E19EB6C30001701E7 /* SBJSON.h */,
+				3D1E701F19EB6C30001701E7 /* SBJSON.m */,
+				3D1E702019EB6C30001701E7 /* SBJsonBase.h */,
+				3D1E702119EB6C30001701E7 /* SBJsonBase.m */,
+				3D1E702219EB6C30001701E7 /* SBJsonParser.h */,
+				3D1E702319EB6C30001701E7 /* SBJsonParser.m */,
+				3D1E702419EB6C30001701E7 /* SBJsonWriter.h */,
+				3D1E702519EB6C30001701E7 /* SBJsonWriter.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		3D1E702819EB6C30001701E7 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				3D1E702919EB6C30001701E7 /* DataSigner.h */,
+				3D1E702A19EB6C30001701E7 /* DataVerifier.h */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		3D1E702D19EB6C30001701E7 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				3D1E702E19EB6C30001701E7 /* libWeChatSDK.a */,
+				3D1E702F19EB6C30001701E7 /* WXApi.h */,
+				3D1E703019EB6C30001701E7 /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		3DBD864A19EAC7D100176DFD = {
+			isa = PBXGroup;
+			children = (
+				3DBD865519EAC7D100176DFD /* PayKitDemo */,
+				3DBD866F19EAC7D100176DFD /* PayKitDemoTests */,
+				3DBD865419EAC7D100176DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DBD865419EAC7D100176DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD865319EAC7D100176DFD /* PayKitDemo.app */,
+				3DBD866C19EAC7D100176DFD /* PayKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DBD865519EAC7D100176DFD /* PayKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D1E700D19EB6C30001701E7 /* PayKit */,
+				3DBD865A19EAC7D100176DFD /* AppDelegate.h */,
+				3DBD865B19EAC7D100176DFD /* AppDelegate.m */,
+				3DF8B31B19EBC148001584F4 /* Reachability.h */,
+				3DF8B31C19EBC148001584F4 /* Reachability.m */,
+				3DBD865D19EAC7D100176DFD /* ViewController.h */,
+				3DBD865E19EAC7D100176DFD /* ViewController.m */,
+				3DBD866019EAC7D100176DFD /* Main.storyboard */,
+				3DBD866319EAC7D100176DFD /* Images.xcassets */,
+				3DBD866519EAC7D100176DFD /* LaunchScreen.xib */,
+				3DBD865619EAC7D100176DFD /* Supporting Files */,
+			);
+			path = PayKitDemo;
+			sourceTree = "<group>";
+		};
+		3DBD865619EAC7D100176DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD865719EAC7D100176DFD /* Info.plist */,
+				3DBD865819EAC7D100176DFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DBD866F19EAC7D100176DFD /* PayKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD867219EAC7D100176DFD /* PayKitDemoTests.m */,
+				3DBD867019EAC7D100176DFD /* Supporting Files */,
+			);
+			path = PayKitDemoTests;
+			sourceTree = "<group>";
+		};
+		3DBD867019EAC7D100176DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD867119EAC7D100176DFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DBD865219EAC7D100176DFD /* PayKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBD867619EAC7D100176DFD /* Build configuration list for PBXNativeTarget "PayKitDemo" */;
+			buildPhases = (
+				3DBD864F19EAC7D100176DFD /* Sources */,
+				3DBD865019EAC7D100176DFD /* Frameworks */,
+				3DBD865119EAC7D100176DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayKitDemo;
+			productName = PayKitDemo;
+			productReference = 3DBD865319EAC7D100176DFD /* PayKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DBD866B19EAC7D100176DFD /* PayKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBD867919EAC7D100176DFD /* Build configuration list for PBXNativeTarget "PayKitDemoTests" */;
+			buildPhases = (
+				3DBD866819EAC7D100176DFD /* Sources */,
+				3DBD866919EAC7D100176DFD /* Frameworks */,
+				3DBD866A19EAC7D100176DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBD866E19EAC7D100176DFD /* PBXTargetDependency */,
+			);
+			name = PayKitDemoTests;
+			productName = PayKitDemoTests;
+			productReference = 3DBD866C19EAC7D100176DFD /* PayKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DBD864B19EAC7D100176DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ChenZhiWen;
+				TargetAttributes = {
+					3DBD865219EAC7D100176DFD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3DBD866B19EAC7D100176DFD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3DBD865219EAC7D100176DFD;
+					};
+				};
+			};
+			buildConfigurationList = 3DBD864E19EAC7D100176DFD /* Build configuration list for PBXProject "PayKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DBD864A19EAC7D100176DFD;
+			productRefGroup = 3DBD865419EAC7D100176DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DBD865219EAC7D100176DFD /* PayKitDemo */,
+				3DBD866B19EAC7D100176DFD /* PayKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DBD865119EAC7D100176DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBD866219EAC7D100176DFD /* Main.storyboard in Resources */,
+				3DBD866719EAC7D100176DFD /* LaunchScreen.xib in Resources */,
+				3D1E703219EB6C30001701E7 /* Alixpay.bundle in Resources */,
+				3DBD866419EAC7D100176DFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBD866A19EAC7D100176DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DBD864F19EAC7D100176DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBD865F19EAC7D100176DFD /* ViewController.m in Sources */,
+				3D1E703519EB6C30001701E7 /* AlixPayOrder.m in Sources */,
+				3D1E703C19EB6C30001701E7 /* SBJsonWriter.m in Sources */,
+				3D1E703919EB6C30001701E7 /* SBJSON.m in Sources */,
+				3D1E703B19EB6C30001701E7 /* SBJsonParser.m in Sources */,
+				3DBD865C19EAC7D100176DFD /* AppDelegate.m in Sources */,
+				3DBD865919EAC7D100176DFD /* main.m in Sources */,
+				3D1E703719EB6C30001701E7 /* NSObject+SBJSON.m in Sources */,
+				3D1E703819EB6C30001701E7 /* NSString+SBJSON.m in Sources */,
+				3DF8B31D19EBC148001584F4 /* Reachability.m in Sources */,
+				3D1E703F19EB6C30001701E7 /* PayKit.m in Sources */,
+				3D1E703A19EB6C30001701E7 /* SBJsonBase.m in Sources */,
+				3D1E703619EB6C30001701E7 /* AlixPayResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBD866819EAC7D100176DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBD867319EAC7D100176DFD /* PayKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DBD866E19EAC7D100176DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBD865219EAC7D100176DFD /* PayKitDemo */;
+			targetProxy = 3DBD866D19EAC7D100176DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DBD866019EAC7D100176DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DBD866119EAC7D100176DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DBD866519EAC7D100176DFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DBD866619EAC7D100176DFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DBD867419EAC7D100176DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DBD867519EAC7D100176DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DBD867719EAC7D100176DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayKitDemo/PayKit/Alipay",
+					"$(PROJECT_DIR)/PayKitDemo/PayKit/Wechat",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3DBD867819EAC7D100176DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayKitDemo/PayKit/Alipay",
+					"$(PROJECT_DIR)/PayKitDemo/PayKit/Wechat",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		3DBD867A19EAC7D100176DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayKitDemo.app/PayKitDemo";
+			};
+			name = Debug;
+		};
+		3DBD867B19EAC7D100176DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayKitDemo.app/PayKitDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DBD864E19EAC7D100176DFD /* Build configuration list for PBXProject "PayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBD867419EAC7D100176DFD /* Debug */,
+				3DBD867519EAC7D100176DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBD867619EAC7D100176DFD /* Build configuration list for PBXNativeTarget "PayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBD867719EAC7D100176DFD /* Debug */,
+				3DBD867819EAC7D100176DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBD867919EAC7D100176DFD /* Build configuration list for PBXNativeTarget "PayKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBD867A19EAC7D100176DFD /* Debug */,
+				3DBD867B19EAC7D100176DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DBD864B19EAC7D100176DFD /* Project object */;
+}
