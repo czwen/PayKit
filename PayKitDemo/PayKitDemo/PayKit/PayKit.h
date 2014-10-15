@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+/**
+ *  支付方式
+ */
 typedef enum{
     PayKitAlipay = 0,
     PayKitWeChat = 1,
@@ -14,10 +17,12 @@ typedef enum{
 
 typedef void (^HandleBlock)(BOOL success, PaymentType rType, id result);
 
+/**
+ *  封装客户端支付
+ */
 @interface PayKit : NSObject
 
 @property (copy,nonatomic) HandleBlock handler;
-
 + (instancetype)shareInstance;
 /**
  *  微信初始化

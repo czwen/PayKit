@@ -22,14 +22,19 @@
     }
     return sharedInstance;
 }
-+ (BOOL)wxRegisterApp:(NSString *)wxAppid
-{
-    return [WXApi registerApp:wxAppid];
-}
 
 + (BOOL)handleOpenURL:(NSURL *)url
 {
     return [WXApi handleOpenURL:url delegate:[PayKit shareInstance]];
+}
+
++ (void)initializeWechat:(NSString *)appkey
+{
+    [WXApi registerApp:appkey];
+}
+
++ (void)initializeAlipay:(NSString *)appkey
+{
 }
 
 + (void)payWithType:(PaymentType)type andRequest:(id)request handleResult:(void (^)(BOOL success, PaymentType rType, id result)) handler
@@ -47,7 +52,6 @@
 //            if (![request isKindOfClass:[PayReq class]]) {
 //                return;
 //            }
-            [WXApi registerApp:@"qewqeq"];
             PayReq *request = [[PayReq alloc] init];
             request.partnerId = @"123";
             request.prepayId= @"312";
@@ -66,10 +70,10 @@
 #pragma mark -------------------- wechat --------------------
 - (void)onResp:(BaseResp *)resp
 {
-    if(resp.errCode){
+    if(resp.errCode == WXSuccess){
         [PayKit shareInstance].handler(YES,PayKitWeChat,resp);
     }else{
-        [PayKit shareInstance].handler(NO,PayKitWeChat,@"error");
+        [PayKit shareInstance].handler(NO,PayKitWeChat,resp.errStr);
     }
 }
 #pragma mark
